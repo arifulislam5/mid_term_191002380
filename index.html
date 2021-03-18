@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Document</title>
+    <style>
+        body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.special{
+    padding-left: 10px;
+    text-align: start;
+}
+#wed{
+    text-align: start;
+    padding: 5px 10px;
+}
+.day{
+    text-align: start;
+    padding-left: 10px;
+}
+    </style>
+</head>
+<body>
+    <table height="300px" width="500px" border="1" cellpadding="0" cellspacing="2px" >
+        <tr>
+          <th rowspan="3">Day</td>
+          <th colspan="3">Seminar</td>
+        </tr>
+        <tr>
+          <th colspan="2">Schedule</td>
+          <th rowspan="2">Topic</td>
+        </tr>
+        <tr>
+          <th>Begin </td>
+          <th>End</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="day">Monday</td>
+          <td rowspan="2">8:00 a.m</td>
+          <td rowspan="2">5:00 p.m</td>
+          <td class="special">Introduction to XML</td>
+        </tr>
+        <tr>
+          <td class="special">Validaty: DTD and Relax NG</td>
+        </tr>
+        <tr>
+          <td rowspan="5" class="day" >Tuesday</td>
+          <td rowspan="2">8:00 a.m</td>
+          <td rowspan="2">11:00 a.m</td>
+          <td rowspan="3" class="special" >XPath</td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td rowspan="2">11:00 a.m</td>
+          <td rowspan="2">2:00 p.m</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="special">XSL transformations</td>
+        </tr>
+        <tr>
+          <td>2:00 p.m</td>
+          <td>5:00 p.m</td>
+        </tr>
+        <tr>
+          <td id="wed">Wednesday</td>
+          <td>8:00 a.m</td>
+          <td>12:00 p.m</td>
+          <td class="special">XSL Formatting Objects</td>
+        </tr>
+    </table>
+    
+     
+    
+</body>
+</html>
